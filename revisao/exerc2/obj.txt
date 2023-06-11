@@ -1,0 +1,2 @@
+2) Leia duas strings. Se as strings forem iguais escreva “strings iguais”. 
+Caso contrário, concatene as duas strings e imprima a string resultante.

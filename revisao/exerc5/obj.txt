@@ -1,0 +1,3 @@
+ Implemente um programa que leia 5 registros de uma estrutura que 
+ contenha o nome e idade de operador. 
+ (utilize struct)

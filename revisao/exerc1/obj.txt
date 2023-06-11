@@ -1,0 +1,1 @@
+1) Dado um vetor V e uma matriz M, verificar se o vetor V ocorre na matriz M.
