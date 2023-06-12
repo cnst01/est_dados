@@ -17,15 +17,15 @@ void SetPessoa(Pessoa *P, char nome[], int idade)
     (*P).Idade = idade;
 }
    
-int main()
+void main()
 {
-    Pessoa Joao;
-    Pessoa Cassio;
-    SetPessoa(&Joao, "joao", 15);
-    SetPessoa(&Cassio, "Cassio", 21);
-    ImprimePessoa(Joao);
-    ImprimePessoa(Cassio);
-
-    return 0;
+    char nomes[5][100] = {"Joao", "Cassio", "Mikael", "Gabriel", "Marcio"};
+    int idade[5] = {12,21,22,18,30};
+    Pessoa list[5];
+    for(int i=0; i<5; i++)
+    {
+        SetPessoa(&list[i], nomes[i], idade[i]);
+        ImprimePessoa(list[i]);
+    }
 }
 
